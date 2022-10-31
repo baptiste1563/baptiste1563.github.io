@@ -14,7 +14,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: rgb(218,37,37);
-  background: linear-gradient(32deg, rgba(218,37,37,1) 0%, rgba(218,37,37,1) 17%, rgba(138,73,221,1) 100%);
+  background: linear-gradient(32deg, rgba(218,37,37,1) 0%, rgba(218,37,37,1) 0%, rgba(79,53,237,1) 100%);
 }
 
 
@@ -105,7 +105,7 @@ body {
     .project-card-text-container {
       flex-direction: column;
       display: flex;
-      gap: 16px
+      gap: 16px;
     }
 
     .project-image {
