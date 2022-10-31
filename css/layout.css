@@ -13,6 +13,8 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(218,37,37);
+  background: linear-gradient(32deg, rgba(218,37,37,1) 0%, rgba(218,37,37,1) 17%, rgba(138,73,221,1) 100%);
 }
 
 
