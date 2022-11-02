@@ -2,64 +2,43 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-
-    <!-- 
-      TODO
-
-      Upload your Unemployable (or whatever photo you like) to the assets/images folder
-      and change the name of the image below to match the uploaded one
-
-      Change the title in the <title> tag to whatever you would like the title of your portfolio to be
-
-      This should be the same across all pages.
-     -->
     <link rel="icon" href="./assets/images/1311.png" />
 		<title>Baptiste Tarrit</title>
-    <meta name="description" content="A portfolio template for the Unemployables community.">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 		<link rel="stylesheet" href="./css/layout.css">
     <link rel="stylesheet" href="./css/typography.css">
     <link rel="stylesheet" href="./css/utilities.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
 		<script defer src="./js/script.js"></script>
 	</head>
 	<body>
-    <!-- NAVBAR -->
     <div class="navbar">
+
       <a class="nav-title-link" href="./index.html">
-        <!-- TODO - Change the "Portfolio Title" to whatever you want displayed in the top left -->
+
         <span class="nav-title">Baptiste Tarrit</span>
-         <!-- TODO - Change the email after 'mailto:' to your email address for contact -->
+
         <a class="button" href="mailto:baptiste.tarrit2@gmail.com">
           <span class="button-text">Contacter moi</span>
         </a>
+
       </a>
+
     </div>
 
-    <!-- MAIN PAGE CONTENT -->
     <div id="main-content">
 
-      <!-- PORTFOLIO HEADER -->
       <div id="portfolio-header">
         <div id="portfolio-header-image-container">
-          <!-- 
-            TODO
 
-            - Change the img "src" attribute to point to the Unemployable image you uploaded (or whatever image).
-            - Change the number to point to your Unemployable & replace the OpenSea link with your own
-            - If you aren't using an Unemployable as your image, remove the entire "a" element
-          -->
           <img src="./assets/images/1311.png" class="portfolio-header-image">
         </div>
 
-          <!-- 
-            TODO
-
-            - Change the main-title to whatver you want
-            - Change the body-text after that to a quick introduction to what you do
-            - Edit the button text if you feel like it. It will link to the projects section below.
-          -->
         <div id="portfolio-header-text-container">
             <div class="header-text">
               <span class="main-title">Bonjour, je m'appelle Baptiste Tarrit</span>
@@ -72,13 +51,6 @@
         </div>
       </div>
 
-      <!-- ABOUT SECTION -->
-      <!-- 
-        TODO
-
-        - Change the subheader-text to whatever header you want
-        - Add paragraphs using the <div class="body-text"></div> elements in the "about-section-content"
-      -->
       <div id="about-section">
         <span class="subheader-text">A propos de moi</span>
         <div class="about-section-content">
@@ -87,34 +59,48 @@
         </div>
       </div>
 
-      <!-- PROJECTS / MY WORK SECTION -->
       <div id="my-work-section">
-        <!-- TODO - Change the subheader-text to whatever you want the Projects section header to say -->
         <span class="subheader-text">Voici donc certains de mes projets :</span>
 
         <div class="projects-container">
-          <!-- 
-            TODO
 
-            This is where the project cards live. Here's a base level project card for you to copy:
-            <div class="project-card">
-              <img src="./assets/images/IMAGE_NAME" class="project-image">
-              <div class="project-card-text-container">
-                <div class="subheader-text project-title">PROJECT_NAME</div>
-                <div class="body-text project-card-text">SMALL_PROJECT_DESCRIPTION</div>
+              <div class="project-card">
+                <img src="./assets/images/NeedForForzaTurismo.png" class="project-image">
+                <div class="project-card-text-container">
+                  <div class="subheader-text project-title">Need For Forza Turismo</div>
+                  <div class="body-text project-card-text">Jeux de voiture créer sur Unity 3D. Avec route et obstacle a génération procédurale, plusieurs modes de jeux et vue cockpit fonctionnelle.</div>
+                </div>
+                <a class="button" href="https://github.com/LRG2B/Need_For_Forza_Turismo">
+                  <span class="button-text">Page Github</span>
+                  <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+                </a>
               </div>
-              <a class="button" href="./project-pages/PROJECT_PAGE_NAME.html">
-                <span class="button-text">Read More</span>
-                <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-              </a>
+              
+              <div class="project-card">
+                <img src="./assets/images/plan_musee.png" class="project-image">
+                <div class="project-card-text-container">
+                  <div class="subheader-text project-title">Virtual Temple of Baalbeck</div>
+                  <div class="body-text project-card-text">Musée virtuel sur Unreal engine. Modélisation d'oeuvre d'art moderne sur 3ds max. Les oeuvres recréer sont des artistes : Philipe Pasqua, Fiona Banner, Jean-paul Moscovino et Jean-michel Othoniel</div>
+                </div>
+                <a class="button" href="https://mega.nz/folder/kHcEgJDD#ppJ2B0q0UGITFuDykGDnhA">
+                  <span class="button-text">Télécharger</span>
+                  <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+                </a>
+              </div>
+              
+          
+          <div class="project-card">
+            <img src="./assets/images/detection_mouvement.png" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">Detection de mouvement</div>
+              <div class="body-text project-card-text">Application openCV en c++ qui réalise une détection de mouvement, basée sur un algorithme de segmentation par seuillage simple.</div>
             </div>
-
-            - To add a project to the this area, copy the above, paste it below this comment, and change the following:
-                - IMAGE_NAME: the name of the image file in assets/images
-                - PROJECT_NAME: the name of the project (keep it short, it only shows 1 line)
-                - SMALL_PROJECT_DESCRIPTION: a quick project description (max 4 lines)
-                - PROJECT_PAGE_NAME.html: the html filename for the project (must be in project-pages folder)
-          -->
+            <a class="button" href="https://github.com/baptiste1563/Detection-de-mouvement-openCV">
+              <span class="button-text">Page Github</span>
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+          </div>
+          
           <div class="project-card">
             <img src="./assets/images/chazay_dazergues.png" class="project-image">
             <div class="project-card-text-container">
@@ -126,25 +112,16 @@
               <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
             </a>
           </div>
-          <div class="project-card">
-            <img src="./assets/images/NeedForForzaTurismo.png" class="project-image">
+          
+            
+            <div class="project-card">
+            <img src="./assets/images/bat_iut.png" class="project-image">
             <div class="project-card-text-container">
-              <div class="subheader-text project-title">Need For Forza Turismo</div>
-              <div class="body-text project-card-text">Jeux de voiture créer sur Unity 3D. Avec route et obstacle a génération procédurale, plusieurs modes de jeux et vue cockpit fonctionnelle...</div>
+              <div class="subheader-text project-title">Escape le puy : The nightmare</div>
+              <div class="body-text project-card-text">Projet en cours. Création d'un jeux collaboratif a deux joueur en VR. Les joueurs devrons collaborer afin de resoudre les énigmes et s'échapper de l'iut de Puy-en-Velay</div>
             </div>
-            <a class="button" href="https://github.com/LRG2B/Need_For_Forza_Turismo">
-              <span class="button-text">Page Github</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
-          </div>
-          <div class="project-card">
-            <img src="./assets/images/sketchbook.jpeg" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">Super Long Project Name That Should be Hidden</div>
-              <div class="body-text project-card-text">Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium</div>
-            </div>
-            <a class="button" href="./project-pages/project-template.html">
-              <span class="button-text">Read More</span>
+            <a class="button" href="./project-pages/escape_le_puy_the_nightmare.html">
+              <span class="button-text">En savoir plus</span>
               <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
             </a>
           </div>
@@ -152,30 +129,17 @@
       </div>
     </div>
 
-    <!-- FOOTER -->
     <div id="footer">
-      <!-- 
-        TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
 
-        This should be the same across all pages.
-      -->
-      <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
-        <image src="./assets/icons/instagram.svg" class="footer-icon"/>
+      <a class="icon-link" target="_blank" href="tel:+33788324531">
+        <image src="./assets/icons/tel.png" class="footer-icon"/>
       </a>
-      <!-- 
-        TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
-      
-        This should be the same across all pages.
-      -->
-      <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
-        <image src="./assets/icons/twitter.svg" class="footer-icon"/>
+
+      <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/baptiste-tarrit">
+        <image src="./assets/icons/linkedin.png" class="footer-icon"/>
       </a>
-      <!-- 
-        TODO - Change the email after "mailto" to your contact email 
-      
-        This should be the same across all pages.
-      -->
-      <a class="icon-link" href="mailto:whitevans.eth@gmail.com">
+
+      <a class="icon-link" href="mailto:baptiste.tarrit2@gmail.com">
         <image src="./assets/icons/mail.svg" class="footer-icon"/>
       </a>
     </div>
