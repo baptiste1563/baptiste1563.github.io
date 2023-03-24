@@ -9,6 +9,23 @@ html {
   -ms-text-size-adjust: none;
 }
 
+html {
+  scrollbar-width: 9px;
+}
+
+html::-webkit-scrollbar {
+  background: rgba(79,53,237,1) ;
+  width: 9px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  border: solid 0 transparent;
+  border-radius: 10px;
+  background-color: #00000071;
+}
+
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;

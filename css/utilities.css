@@ -105,7 +105,6 @@ footer {
   background-color: rgb(94, 94, 94);
   opacity: 90%;
   font-family: 'Bebas Neue', cursive;
-  border-radius: 15px;
 }
 
 #lien-contact {
@@ -136,6 +135,9 @@ a.no-underline:hover {
   height: 1170px;
 }
 
+.video {
+  margin: 0 auto;
+}
 
 /* Small devices (portrait tablets and large phones, 800px and below) */
 @media only screen and (max-width: 800px) {
