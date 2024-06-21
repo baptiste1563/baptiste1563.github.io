@@ -1,6 +1,3 @@
-body {
-  
-}
 
 .nav-title {
   font-weight: 700;
@@ -51,4 +48,9 @@ body {
   display: -webkit-box;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
-  font-family: 'Bebas Neue', cursive;}
+  font-family: 'Bebas Neue', cursive;
+}
+
+.image-caption {
+  font-size: 18px;
+}

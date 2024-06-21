@@ -14,7 +14,7 @@ html {
 }
 
 html::-webkit-scrollbar {
-  background: rgba(79,53,237,1) ;
+  background: rgb(78, 53, 237) ;
   width: 9px;
 }
 
@@ -113,7 +113,7 @@ body {
     /* Project Cards */
 
     .project-card {
-      max-width: calc((100% - 32px) / 3);
+      max-width: calc((100% - 32px) / 2);
       display: flex;
       flex-direction: column;
       gap: 34px;
@@ -127,7 +127,7 @@ body {
 
     .project-image {
       width: 100%;
-      height: 200px;
+      height: auto;
       object-fit: cover;
       object-position: center;
       border-radius: 5px;
@@ -239,7 +239,19 @@ body {
   }
 }
 
+.list-web {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 
+#project-link {
+  display: flex;
+  justify-content: space-around;
+}
 
-
-
+#project-link #allign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+		<meta charset="utf-8">
+    <link rel="icon" href="../ressource/images/profil.png" />
+		<title>Baptiste Tarrit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/utilities.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+		<script defer src="../js/script.js"></script>
+	</head>
+	<body>
+    <header>
+
+      <div class="nav-title-link" >
+        <a class="nav-title" href="../index.html">Baptiste Tarrit<a>
+        <a class="nav-title" href="./cv.html">Mon CV</a>
+      </div>
+
+      <a class="button" id="contact_button">
+        <span class="button-text">Contactez-moi</span>
+      </a>
+
+
+    </header>
+
+    <div id="main-content">
+
+      <div id="project-header">
+  
+        <div class="main-title">Remindr</div>
+        <div class="body-text">Site Web réaliser avec next-js pour la gestion de rappel.</div>
+        <image class="project-header-image" src="../ressource/images/remindrV2_homepage.png">
+
+      </div>
+
+      
+      <div id="project-details">
+
+        <div class="subheader-text">Technologies utilisée</div>
+        <div class="project-details-content">
+            <ul class="list-web">
+                <li><div class="body-text"><strong>Next JS :</strong> Nous avons choisi le Framework NextJS car c'est la technologie que je maitrise le mieux et aussi parce que NextJS est une technologie montante</div></li>
+                <li><div class="body-text"><strong>React : </strong>Nous avons utilisé React pour le Front. Nous l'avons choisi car elle est inclus avec NextJS en plus c'est le Framework de front le plus utilisé donc il est très bien documenté.</div></li>
+                <li><div class="body-text"><strong>Prisma :</strong> Nous l'avons utilisé pour la gestion de la base de donnée car Prisma gères automatiquement les relation entre les tables et simplifie les requêtes. De plus, nous l'avons choisi car c'est un ORM qui fonction très bien avec la solution Next-Auth que nous avons également choisi.</div></li>
+                <li><div class="body-text"><strong>Next-Auth :</strong> Nous l'avons utilisé pour gerer la connexion au site, il a été conçu pour Next js et fonctionne très bien avec Prisma, il permet de rapidement mettre en place une connexion sécuriser avec des Provider telle que Github</div></li>
+            </ul>
+            <div class="subheader-text">Fonctionnalités du Projet :</div>
+
+            <ul class="list-web">
+                <li> 
+                    <div class="body-text">
+                        <strong>Authentification et Comptes Utilisateurs :</strong><br>
+                            <br>- Les utilisateurs doivent pouvoir créer un compte et se connecter.
+                            <br>- Un utilisateur doit avoir un tableau de bord (dashboard) après la connexion.
+                    </div>
+                </li>
+                <li>
+                    <div class="body-text">
+                        <strong>Gestion des Groupes :</strong><br>
+                            <br>- Les utilisateurs peuvent créer un ou plusieurs groupes.
+                            <br>- Chaque groupe doit avoir un nom unique.
+                            <br>- Les utilisateurs peuvent ajouter d'autres utilisateurs inscrits sur la plateforme dans leurs groupes.
+                    </div>
+                </li>
+                <li>
+                    <div class="body-text">
+                        <strong>Création et Gestion des Rappels :</strong><br>
+                            <br>- Dans un groupe, les utilisateurs peuvent ajouter des rappels.
+                            <br>- Chaque rappel doit avoir un nom, une description, une date et une heure d'échéance.
+                            <br>- Les rappels peuvent être différenciés par couleur.
+                            <br>- Les rappels doivent être ordonnés sur le tableau de bord en fonction de leur date d'échéance.
+                    </div>
+                </li>
+                <li>
+                    <div class="body-text">
+                        <strong>Affichage sur le Tableau de Bord :</strong><br>
+                            <br>- Sur le tableau de bord, les utilisateurs doivent d'abord voir les rappels qui arrivent à échéance rapidement, indépendamment du groupe.
+                            <br>- Ensuite, affichez la liste des groupes auxquels l'utilisateur appartient.
+                    </div>
+                </li>
+                <li>
+                    <div class="body-text">
+                        <strong>Modification et Suppression des Rappels :</strong><br>
+                            <br>- Les utilisateurs peuvent modifier et supprimer les rappels dans les groupes auxquels ils appartiennent.
+                    </div>
+                </li>
+                <li>
+                    <div class="body-text">
+                        <strong>Affichage des Rappels dans un Groupe :</strong><br>
+                            <br>- Lorsqu'un utilisateur accède à un groupe, les rappels doivent être affichés dans l'ordre de la date d'échéance, de la plus proche à la plus éloignée.
+                            <br>- Ajoutez une option pour afficher les rappels dépassés, avec un style différent pour indiquer qu'ils sont passés.
+                    </div>
+                </li>
+            </ul>
+
+            <a class="button" href="https://github.com/baptiste1563/remindrV2">
+              <span class="button-text">Voir sur Github</span>
+              <image src="../ressource/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+
+        </div>
+ 
+      </div>
+      
+      <a class="button" href="../index.html#my-work-section">
+        <span class="button-text">Voir les autres projets</span>
+        <image src="../ressource/icons/arrow-right.svg" class="right-arrow-icon"/>
+      </a>
+
+    </div>
+      <footer>
+                            
+
+        <div id="info-contact">
+          <h3>N'hésitez pas à me contacter pour plus d'information</h3>
+          <div id="lien-contact">
+            <p>Baptiste.tarrit2@gmail.com</p>
+            <p>linkedin.com/in/baptiste-tarrit</p>
+          </div>
+        </div>
+  
+        <div id="icons"> 
+          <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/baptiste-tarrit">
+            <image src="../ressource/icons/linkedin.png" class="footer-icon"/>
+          </a>
+  
+          <a class="icon-link" href="mailto:baptiste.tarrit2@gmail.com">
+            <image src="../ressource/icons/mail.svg" class="footer-icon"/>
+          </a>
+        </div>
+      </footer>
+  
+	</body>
+</html>

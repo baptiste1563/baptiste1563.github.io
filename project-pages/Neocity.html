@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+		<meta charset="utf-8">
+    <link rel="icon" href="../ressource/images/profil.png" />
+		<title>Baptiste Tarrit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/utilities.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+		<script defer src="../js/script.js"></script>
+	</head>
+	<body>
+    <header>
+
+      <div class="nav-title-link" >
+        <a class="nav-title" href="../index.html">Baptiste Tarrit<a>
+        <a class="nav-title" href="./cv.html">Mon CV</a>
+      </div>
+
+      <a class="button" id="contact_button">
+        <span class="button-text">Contactez-moi</span>
+      </a>
+
+
+    </header>
+
+    <div id="main-content">
+
+      <div id="project-header">
+  
+        <div class="main-title">Néocity</div>
+        <div class="body-text">Jeu unity de type CityBuiler Responsable</div>
+        <iframe width=auto height="600" src="https://www.youtube-nocookie.com/embed/Og4vOZzyFlg?si=bSGSAPXw5nfVdxdi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      </div>
+
+      
+      <div id="project-details">
+
+        <div class="subheader-text">Néocity est un jeu ou vous devez étendre votre ville tout en prennant en compte des enjeux environnemetaux</div>
+        <div class="project-details-content">
+            
+            <div class="subheader-text"></div>
+
+            <ul class="list-web">
+                <li> 
+                    <div class="body-text">
+                        Le gameplay tourne autour de trois type de batiment :<br>
+                            <br>- Les habitation qui permettent d'augmenter la population de la ville
+                            <br>- Les usines qui permettent de produire des ressources
+                            <br>- Les loisirs qui permettent de divertir les habitants
+                    </div>
+                </li>
+                
+                    <div class="body-text">
+                            Le jeu fonctionne autour de 3 variables : le bonheurs, la pollution et la population, le but du jeu est de trouver un équilibre entre ces trois variables pour faire prospérer votre ville
+                            <br>Si la pollution est trop élevé, des catastrophe naturelles peuvent plus regulièment survenir et plus violente
+                            <br>Si le bonheur est trop bas, la habitant produisent moins de ressource
+
+                    </div>
+
+                    <div class="project-gallery">
+                        <div class="gallery-image-container">
+                          <img class="" src="../ressource/images/neocity_gameplay.png" alt="Image of the project"/>
+                        </div>
+                    </div>
+                
+                <li>
+                    <div class="body-text">
+                        <strong>Pour faire baisser ça pollution le joueur a plusieurs choix</strong><br>
+                            <br>Il peut contruire des habitation proche de l'usine pour que les habitant produisent moins de CO2
+                            <br>Il peut réaffecter les habitant d'une usine a une autre plus proche
+                            <br>Il peut a chaque amelioration de l'hotel de ville choisir des réforme qui ferons évoluer sa ville dans un sens ou dans l'autre
+                    </div>
+                </li>
+                
+                    <div class="body-text">
+                      Pour réaliser ce projet nous étions 4, nous avons longement réflechi aux déferente mécanique de jeu pour arriver a un jeu éducatif et amusant
+                      Pour le réaliser nous nous sommes baser sur cette étude de la pollution en france et avons essayer de reproduire les principaux poles de la pollution dans notre jeu
+                    </div>
+
+                    <div class="project-gallery">
+                      <div class="gallery-image-container">
+                        <img class="" src="../ressource/images/graph_CO2.png" alt="Image of the project"/>
+                      </div>
+                  </div>
+                
+                <li>
+                    <div class="body-text">
+                            <strong>Partie Technique</strong><br><br>
+                            Le jeu a été réaliser sur Unity 3D, nous avons utiliser le language C# pour les script, je me suis occuper de la gestion du plateau pour poser les batiment ainsi que de la création de leurs prefab. J'ai passer beaucoup de temps a réaliser la gestion des sauvegarde en JSON. Celle-ci été conplexe car il fallait sauvegarder pour les batiments : leurs position sur la carte, leurs niveau d'amelioration, leurs type et les affection de leur habitant si il y en a . Mais aussi des donnée plus globale comme la population, la pollution et le bonheur de la ville et les réforme selectionné par le joueur.
+                    </div>
+                </li>
+                <li>
+                    <div class="body-text">
+                        <strong>Affichage des Rappels dans un Groupe :</strong><br>
+                            <br>- Lorsqu'un utilisateur accède à un groupe, les rappels doivent être affichés dans l'ordre de la date d'échéance, de la plus proche à la plus éloignée.
+                            <br>- Ajoutez une option pour afficher les rappels dépassés, avec un style différent pour indiquer qu'ils sont passés.
+                    </div>
+                </li>
+            </ul>
+
+            <a class="button" href="https://gitlab.antoine-chabanel.fr/n3rdt34m/neocity">
+              <span class="button-text">Voir sur Gitlab</span>
+              <image src="../ressource/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+
+        </div>
+ 
+      </div>
+      
+      <a class="button" href="../index.html#my-work-section">
+        <span class="button-text">Voir les autres projets</span>
+        <image src="../ressource/icons/arrow-right.svg" class="right-arrow-icon"/>
+      </a>
+
+    </div>
+      <footer>
+                            
+
+        <div id="info-contact">
+          <h3>N'hésitez pas à me contacter pour plus d'information</h3>
+          <div id="lien-contact">
+            <p>Baptiste.tarrit2@gmail.com</p>
+            <p>linkedin.com/in/baptiste-tarrit</p>
+          </div>
+        </div>
+  
+        <div id="icons">
+          <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/baptiste-tarrit">
+            <image src="../ressource/icons/linkedin.png" class="footer-icon"/>
+          </a>
+  
+          <a class="icon-link" href="mailto:baptiste.tarrit2@gmail.com">
+            <image src="../ressource/icons/mail.svg" class="footer-icon"/>
+          </a>
+        </div>
+      </footer>
+  
+	</body>
+</html>

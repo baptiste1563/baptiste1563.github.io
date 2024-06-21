@@ -93,22 +93,25 @@ a.button:hover {
 /* Footer Styling */
 
 #icons {
+  background-color: rgba(94, 94, 94, 0.534);
   width: 100%;
   display: flex;
-  padding: 30px 50px;
+  padding: 60px 50px;
   justify-content: center;
   align-items: center;
-  gap: 100px;
+  gap: 200px;
 }
 
 footer {
-  background-color: rgb(94, 94, 94);
-  opacity: 90%;
   font-family: 'Bebas Neue', cursive;
 }
 
-#lien-contact {
-  text-align: center;
+
+
+#contact-card a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 /* Link Styling */
@@ -123,12 +126,14 @@ a.no-underline:hover {
 }
 
 #info-contact {
+  background-color: rgba(94, 94, 94, 0.534);
   display: flex;
   flex-direction: column;
   align-items: center;
   color: rgb(0, 0, 0);
   font-size: 25px;
 }
+
 
 #cv {
   width: auto;
